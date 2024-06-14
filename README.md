@@ -31,7 +31,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 ## Language List
 
 1. **Python** - ✅
-2. **JavaScript**
+2. **JavaScript** - ✅
 3. **Java**
 4. **C**
 5. **C++** - ✅
