@@ -7,4 +7,4 @@ let football_length = 3600.0
 
 let bananas = (banana_width * banana_length) / (football_width * football_length)
 
-Console.WriteLine bananas
+printfn "%f bananas could fit in a football field" bananas
