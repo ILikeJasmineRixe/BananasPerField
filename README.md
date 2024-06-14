@@ -85,7 +85,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 44. **Inform**
 45. **Io**
 46. **J**
-47. **Java**
+47. **Java** - ✅
 48. **JavaScript** - ✅
 49. **JScript**
 50. **Julia**
