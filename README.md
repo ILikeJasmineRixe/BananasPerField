@@ -69,7 +69,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 28. **Elixir**
 29. **Emacs Lisp**
 30. **Erlang**
-31. **F#**
+31. **F#** - ✅
 32. **Factor**
 33. **Forth**
 34. **Fortran**
