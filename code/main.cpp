@@ -1,19 +1,22 @@
 #include <iostream>
-#include <string>
+using namespace std;
 
 int main() {
-    double banana_length = 7.5;
-    int football_field_length = 3500;
-
+    // Dimensions of Banana
     double banana_width = 0.75;
-    int football_field_width = 1920;
+    double banana_length = 7.5;
+    double banana_area = banana_width * banana_length;
 
-    double bananas_per_field_length = football_field_length / banana_length;
-    double bananas_per_field_width = football_field_width / banana_width;
+    // Dimensions of Football field
+    double football_field_width = 1920;
+    double football_field_length = 3600;
+    double football_field_area = football_field_width * football_field_length;
 
-    std::cout << "length: " + std::to_string(bananas_per_field_length) << std::endl;
-    std::cout << "width: " + std::to_string(bananas_per_field_width) << std::endl;
-    std::cout << "football area: " + std::to_string(bananas_per_field_length * bananas_per_field_width) << std::endl;
+    double bananas_fit = football_field_area / banana_area;
 
-    return 0; // roughly 480 
+    cout << bananas_fit << " bananas could fit in a football field" << endl;
+    // prints: 1228800.0 bananas could fit in a football field
+    // rouhgly 480
+
+    return 0;
 }
