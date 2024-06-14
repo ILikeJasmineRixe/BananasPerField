@@ -1,4 +1,0 @@
-lit banana_length be 7.5 rn
-lit football_field_length be 3500 rn
-lit football_banana_length be (football_field_length/banana_length) rn
-waffle(football_banana_length) /* roughly 480 */
