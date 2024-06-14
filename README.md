@@ -22,5 +22,5 @@ football_field_width = 1920
 bananas_per_field_width = football_field_width / banana_width # Result: 2,560
 
 banana_football_area = bananas_per_field_length * bananas_per_field_width
-print(banana_football_area) # Result: 1,228,800
+print(banana_football_area) # Result: 1,228,800 
 ```
