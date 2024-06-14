@@ -8,8 +8,17 @@ The goal of this project is to determine how many bananas can fit in a football 
 ## Variables and Values
 To calculate, ensure your variables and values align as follows:
 
-- Banana Length in Inches: 7.5
-- Football Field Length in Inches: 3,500
+- Width of a Banana: 0.75in
+- Length of a Banana: 7.5in
+- Area of a Banana = Width x Length
+
+- Width of a Football Field: 1,920in
+- Length of a Football Field: 3,600in
+- Area of a Football Field: Width x Length
+
+- Final Count: Football Field Area / Banana Area
+
+### Python Base Example:
 
 ```python
 # Dimensions of Banana
