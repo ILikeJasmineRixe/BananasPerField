@@ -12,21 +12,25 @@ To calculate, ensure your variables and values align as follows:
 - Football Field Length in Inches: 3,500
 
 ```python
-# Python example
-banana_length = 7.5
-football_field_length = 3500
-bananas_per_field_length = football_field_length / banana_length  # Result: 466.67
+# Dimensions of Banana
+banana_width = 0.75  # inches
+banana_length = 7.5  # inches
+banana_area = banana_width * banana_length
 
-banana_width = 0.75
-football_field_width = 1920
-bananas_per_field_width = football_field_width / banana_width # Result: 2,560
+# Dimensions of Football field
+football_field_width = 1920  # inches
+football_field_length = 3600  # inches
+football_field_area = football_field_width * football_field_length
 
-banana_football_area = bananas_per_field_length * bananas_per_field_width
-print(banana_football_area) # Result: 1,228,800
+bananas_fit = football_field_area / banana_area
+
+print("{} bananas could fit in a football field".format(bananas_fit))
+# prints: 1228800.0 bananas could fit in a football field
+# // rouhgly 480
 ```
 ## Language List
 
-1. **Python**
+1. **Python** - ✅
 2. **JavaScript**
 3. **Java**
 4. **C**
