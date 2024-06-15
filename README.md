@@ -54,7 +54,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 13. **Boo**
 14. **Bourne Shell (sh)**
 15. **C**
-16. **C#**
+16. **C#** - ✅
 17. **C++** - ✅
 18. **Chapel**
 19. **Clojure**
@@ -121,7 +121,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 80. **Rexx**
 81. **Ring**
 82. **Ruby**
-83. **Rust**
+83. **Rust** - ✅
 84. **S-Lang**
 85. **Scala**
 86. **Scheme**
