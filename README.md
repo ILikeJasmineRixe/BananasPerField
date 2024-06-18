@@ -76,7 +76,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 35. **FreeBASIC**
 36. **GAMS**
 37. **GML (GameMaker Language)**
-38. **Go**
+38. **Go** - ✅
 39. **Groovy**
 40. **Haskell**
 41. **Haxe**
