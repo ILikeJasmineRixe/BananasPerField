@@ -53,7 +53,7 @@ print("{} bananas could fit in a football field".format(bananas_fit))
 12. **BCPL**
 13. **Boo**
 14. **Bourne Shell (sh)**
-15. **C**
+15. **C** - ✅
 16. **C#** - ✅
 17. **C++** - ✅
 18. **Chapel**
